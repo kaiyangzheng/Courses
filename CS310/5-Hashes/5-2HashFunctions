@@ -1,0 +1,18 @@
+// Hash functions
+// 6/5/22
+
+/*
+Hash functions
+- property of the data
+- be fast to compute
+- if two things are "equal" should return the same value
+- always return the same value during one run of the code
+- possible to return different values for an object in separate runs
+- minimize collisions
+
+Object 
+- few methods to override
+- toString
+- equals
+- hashCode
+*/

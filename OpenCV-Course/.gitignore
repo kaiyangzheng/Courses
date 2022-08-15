@@ -1,0 +1,6 @@
+Faces/
+Photos/
+Videos/
+*.yml
+*.npy
+*.xml

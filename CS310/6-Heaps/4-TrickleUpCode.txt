@@ -1,0 +1,38 @@
+// Trickle Up Code
+// 6/12/22
+
+/*
+4 different ways to do traversals
+- in order: left, root, right
+- pre order: root, left, right
+- post order: left, right, root
+- level order: in order of level 
+
+children: 2x parent + 1, 2x parent + 2
+parent: floor((child-1)/2)
+- use array and use these relationships
+
+int lastPosition;
+E[] array = (E[]) new Object[size];
+public void add(E obj){
+    array[++lastPosition] = obj;
+    trickleUp(lastPosition);
+}
+
+public void swap(int from, int to){
+    E temp = array[from];
+    array[from] = array[to];
+    array[to] = temp;
+}
+
+public void trickleUp(int position){
+     if (position == 0){
+         return;
+     }
+     int parent = (int) Math.floor((position-1)/2);
+     if (((Comparable<E> array[position]).compareTo(array[parent])) > 0){
+         swap(position, parent);
+         trickeUp(parent);
+     }
+}
+*/

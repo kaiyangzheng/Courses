@@ -1,0 +1,15 @@
+// Autoboxing
+// 5/25/22
+
+/*
+Primitive types
+- byte, short, int, long, double, char boolean
+- jvm sets exact required memory for that primitive types
+
+Object
+- jvm sets 4 bytes for pointer to the heap and as much space on the heap as required for the object
+
+Wrapper classes
+- Object versions of primitives - Byte, Short, Integer, Long, Double, Char, Boolean
+- Java switches between primitves and wrapper types with Autoboxing
+*/

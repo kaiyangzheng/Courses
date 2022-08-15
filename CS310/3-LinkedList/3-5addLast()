@@ -1,0 +1,55 @@
+// addLast()
+// 5/29/22
+
+/*
+Adding to the end of a LinkedList
+- only start at the head
+- set a temporary pointer - initially points to head
+- ask if temp.next == null?
+- if not null, set temp to temp.next
+- when temp.next == null, set temp.next to new Node
+
+public void addLast(E obj){
+    Node node = new Node(obj);
+    if (head == null){
+        head = node;
+        currentSize++:
+        return;
+    }
+
+    Node<E> temp = head;
+
+    
+    while (temp.next != null){
+        tmp = tmp.next
+    }
+
+    tmp.next = node;
+    currentSize++;
+}
+
+What if head is null?
+- NullPointerException - temp.next does not exist since temp => head => null
+- add a check
+
+Complexity - O(n)
+- How can I get around this?
+- add new pointer tail - points to last Node in the list
+
+public void addLast(E obj){
+    Node<E> node = new Node<E>(obj);
+    if (head == null){
+        head = tail = node;
+        currentSize++;
+        return;
+    }
+    tail.next = node;
+    tail = node;
+    currentSize++;
+    return;
+}
+
+Complexity - O(1);
+= uses a tail pointer
+
+*/

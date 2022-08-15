@@ -1,0 +1,37 @@
+// Intro to Generic Programming
+// 5/25/22
+
+/*
+public class ss{
+    public int[] superSort(int[] array){
+        ...sort...
+        return array;
+    }
+}
+- How can I use this sorting method for Strings - without generic programming?
+    - Change everything to String
+
+Goal of Geneic Programming - allow every type to be used in a method
+- Obj .equals() - compares memory location 
+    - override .equals() method
+- Obj .toString()
+    - override .toString() method
+- Obj .hashCode()
+
+Object[] arr = new Object[10];
+Student s = new Student;
+Object obj = s;
+arr[0] = obj;
+
+Monkey m = new Monkey();
+arr[1] = m;
+
+String s= "Chalk and Cheese";
+arr[2] = s;
+
+Will this all compile?
+- Yes, they are all Objects
+- However, not pleasing - mixing up different types
+- Solution? - Parameterized Types - allow us to define what to put in a particular container
+
+*/

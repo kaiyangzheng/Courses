@@ -1,0 +1,22 @@
+// Doubly Linked Lists
+// 6/3/22
+
+/*
+Problem with Singly Linked List
+- even with a Tail pointer, removeLast() is always O(n)
+- no way to go from last element to thing beofre
+- Solution: Doubly Linked List
+
+Doubly Linked List
+- each Node: next, previous, data
+- next points to next Node, previous points to previous Node
+
+Now, to do removeLast()
+
+E temp = tail.data;
+Node<E> beforeLast = tail.prev;
+tail.prev.next = null;
+tail = tail.prev
+
+Advantage - constant time remove
+*/

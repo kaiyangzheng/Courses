@@ -1,0 +1,14 @@
+// Trees Complete and Full
+// 6/18/22
+
+/*
+Tree where
+- every non leaf has two children except for the last row
+- the last row is filled from left to right
+=> Complete Tree
+
+Tree where
+- every non leaf has two children 
+- all leaves are on the same level
+=> Full Tree
+*/

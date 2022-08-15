@@ -1,0 +1,34 @@
+// Hash Functions for Strings
+// 6/5/22
+
+/*
+String s = "my name is rob";
+char c = s.charAt(6);
+System.out.println(c)
+- outputs 'm'
+
+int i = s.charAt(6);
+System.out.println(i);
+- will this compile?
+- yes, it will return the unicode value
+0-9 => 48-57
+A-Z => 65-90
+a-z => 97-122
+
+hashCode Strings
+-  t   h   i   s  
+- 116 104 105 115 = 440
+-  h   i   t   s  = 440
+-  t   i   s   h  = 440
+- a lot of collisions
+- solution? - raise each unicode value to the power of its position
+
+public int hashCode(String s){
+    int g = 31;
+    int hash = 0;
+    for (int i = 0;i < s.length(); i++){
+        hash = g*hash+s.charAt(i);
+    }
+    return hash;
+}
+*/

@@ -1,0 +1,22 @@
+// peek
+// 5/30/22
+
+/*
+Peek 
+- take a look at element, but not delete 
+- removeFirst() and addFirst()
+
+public E peekFirst(){
+    if (head == null){
+        return null;
+    }
+    return head.data;
+}
+
+public E peekLast(){
+    if (tail == null){
+        return null;
+    }
+    return tail.data;
+}
+*/

@@ -1,0 +1,16 @@
+// Expansion Trees
+// 6/18/22
+
+/*
+Tree
+- root: *
+    - left child: 2
+    - right child: 3
+
+In order: 2 * 3
+Pre order: * 2 3
+Post order: 2 3 *
+
+A complex expression can be written in a Tree
+- infix expression convert to postfix
+*/

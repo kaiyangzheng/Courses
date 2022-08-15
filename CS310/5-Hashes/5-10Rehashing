@@ -1,0 +1,28 @@
+// Rehashing
+// 6/7/22
+
+/*
+Chaining - each position in array is a Linked List 
+- more elements thans size of array
+- lambda can be larger than 1 - however, still keep it small 
+
+If a traditional array becomes full
+- make a new array twice the size
+- copy everything over
+
+For our changed hash, 
+- lambda too high - resize array
+- make array twice the size 
+- can I copy the pointer to the new location?
+
+int hv = x.hashCode();
+hv = hv & 0x7fffffff;
+hv = hv % tableSize;
+
+int idx = x.hashCode();
+int indx = x & 0x7fffffff;
+idx = idx % newTableSize(); => we don't get same position
+
+- initiate new table full of empty Linked Lists 
+- go to first element of Linked List and find hashCode for each element => place on new table
+*/

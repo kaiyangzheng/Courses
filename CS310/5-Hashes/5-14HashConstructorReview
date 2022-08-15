@@ -1,0 +1,19 @@
+// Hash Constructor Review
+// 6/9/22
+
+/*
+Same thing as last video?
+public class Hash<k,v> implements HashI<k,v>{
+    LinkedList<HashElement<k,v>>[] harray;
+
+    public Hash(int tableSize){
+        this.tableSize = tableSize;
+        harray = (LinkedList<HashElement<k,v>>[]) new LinkedList[tableSize];
+        for (int i = 0; i < tableSize; i++){
+            harray[i] = new LinkedList<HashElement<k,v>>();
+        }
+        maxLoadFactor = 0.75;
+        numElements = 0;    
+    }
+}       
+*/

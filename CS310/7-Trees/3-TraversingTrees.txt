@@ -1,0 +1,20 @@
+// Traversing Trees
+// 6/18/22
+
+/*
+Several ways to traverse through a tree
+- Pre order Traversal
+    - visit root Node
+    - visit left child
+    - visit right child
+- In order Traversal
+    - visit left child
+    - visit root Node
+    - visit right child
+- Post order Traversal
+    - visit left child
+    - visit right child
+    - visit root Node
+- Breadth first / level order Traversal
+    - start at top Node, traverse through each level 
+*/

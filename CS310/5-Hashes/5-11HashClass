@@ -1,0 +1,28 @@
+// The Hash Class
+// 6/9/22
+
+/*
+Write a chained hash with Linked Lists
+- objects are Hash elements
+    - have a key and a value
+
+public class Hash<k,v> implements HashI<k,v>{
+    private class HashElement<k,v> implements Comparable<HashElement<k,v>>{
+        k key;
+        v value;
+        public HashElement(k key, v value){
+            this.key = key;
+            this.value = value;
+        }
+        
+        public int compareTo(HashElement<k,v> o){
+            return (((Comparable<k> this.key).compareTo(o.key))
+        }
+    }
+
+    int numElements;
+    int tableSize;
+    double maxLoadFactor;
+    LinkedList<HashElement<k,v>>[] harray; 
+}
+*/

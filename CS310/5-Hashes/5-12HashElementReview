@@ -1,0 +1,21 @@
+// HashElement Review
+// 6/9/22
+
+/*
+Hash
+
+public class Hash<k,v> implements HashI<k,v>{
+    class HashElement<k,v> implements Comparable<HashElement<k,v>>{
+        k key;
+        v value;
+        public HashElement(k key, v value){
+            this.key = key;
+            this.value = value;
+        }
+
+        public int compareTo(HashElement<k,v> h){
+            return ((Comparable<k>) h.key).compareTo(this.ey))
+        }
+    }
+}
+*/

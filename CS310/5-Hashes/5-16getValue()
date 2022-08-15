@@ -1,0 +1,14 @@
+// getValue()
+// 6/10/22
+
+/*
+public v getValue(k key){
+    int hashVal = key.hashCode() & 0x7FFFFFFF % tableSize;
+    for (HashElement<k,v> he : harray[hashValue]){
+        if (((Comparable<k>) key).compareTo(he.key)) == 0){
+            return he.value;
+        }
+    }
+    return null;
+}
+*/

@@ -1,0 +1,45 @@
+// Recursive Add
+// 6/29/22
+
+/*
+To add something to a Tree
+- start at the root
+- if element bigger -> go to the right
+- if element smaller -> go to the left
+- If there is a place that is null, add the element
+- Add method can be a recursive method - we don't know how many levels we have to go down
+    - start at root and keep parsing from left to right until there is a null
+
+private void add(E obj, Node<E> node){
+    // if obj greater than current node
+    if (((Comparable<E>) obj).compareTo(node.data)) > 0){
+        // go to the right
+        if (node.right == null){
+            node.right = new Node<E>(obj);
+            return;
+        }
+        return add(obj, node.right);
+    }
+    // if obj not greater than the current 0
+    // go to the left
+    if (node.left == null){
+        node.left = new Node<E>(obj);
+        return;
+    }
+    return add(obj, node.left);
+}
+
+In our tree, we have a special Node:
+- root - the Node by which the tree is accessed
+- global variable
+
+public void add(E obj){
+    if (root == null){
+        root = new Node<E>(obj);
+    }
+    else{
+        add(obj, root);
+    }
+    currentSize++;
+}
+*/

@@ -1,0 +1,19 @@
+// Circular Linked Lists
+// 6/3/22
+
+/*
+How to tell if my Linked List was a circular Linked List?
+- interate until temporary pointer is null
+- iterate until temporary pointer is same as head
+- interate until temporary pointer.next is the same as head
+
+if Tail pointer
+- check of tail.next = head;
+
+What if tail points to middle of the list?
+- if tail.next != null;
+
+if no tail
+- create two temporary pointers that go through list to see if the start repeats
+- Complexity O(n^2)
+*/

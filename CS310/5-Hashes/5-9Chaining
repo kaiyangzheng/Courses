@@ -1,0 +1,34 @@
+// Chaining
+// 6/7/22
+
+/*
+Hash 
+- an array that we add elements to
+- problem: array starts filling up
+- at each position, data structure to accomodate an endess amount of data
+- data structure to use: Linked List
+
+Every position of array, build a Linked List - head Nodes
+
+h = a.hashCode();
+h = h & 0x7fffffff;
+h = h % tableSize;
+- call LinkedList addFirst(a);
+
+h = b.hashCode();
+h = h & 7x6fffffff;
+h = h % tableSize;
+- call LinkedList addFirst(b);
+
+As I start adding elements, my chain starts growing
+f add element to space where there is already an element, just add it to the LinkedList
+- constant time add, remove, and find of every element
+- unlimited size
+- lambda = num entries/num possible chains
+- as we start addings, it is possible for lambda to match the number of chains or be even higher
+
+Chained hashes can go wrong 
+- complexity can go from constant time to O(n)
+- worst case for chaining: O(n) if hash code returns the same number every time
+- best case for chainig: o(1) if hash code returns the different number every time
+*/

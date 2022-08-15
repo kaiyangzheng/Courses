@@ -1,0 +1,27 @@
+// Exceptions
+// 5/25/22
+
+/*
+java.lang.Exception
+- Every exception extends Exception class
+- Exception  
+    - NullPointerException
+    - ArrayIndexOutOfbounds
+    - NoSuchElementException
+- Tell you something - what is wrong with your code
+- Create our own Exception to debug code   
+    package exceptions;
+    
+    public class FileFormatException extends Exception{
+        public FileFormatException(){
+            super();
+        }
+
+        public FileFormatException(String s){
+            super(s);
+        }
+    }
+
+    throw new FileFormatException("Your file is not well formatted");
+
+*/

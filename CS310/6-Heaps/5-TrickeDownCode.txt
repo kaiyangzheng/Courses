@@ -1,0 +1,36 @@
+// Trickle Down Code
+// 6/14/22
+
+/*
+public void remove(){
+    E tmp = array[0];
+    swap(0, lastPostion--);
+    trickleDown(0);
+    return tmp;
+}
+
+public void trickleDown(int parent){
+    int left = 2 * parent + 1;
+    int right = 2 * parent + 2;
+    if (left == lastPosition && (((Comparable<E>)array[parent]).compareTo(array[left])) < 0){
+        swap(parent, left);
+        return;
+    }
+    if (right >= lastPosition && array[parent] < array[right]){
+        swap(parent, right);
+        return;
+    }
+    if (left >= lastPosition || right >= lastPosition){
+        return;
+    }
+    if (array[left]>array[right] && array[parent] < array[left]){
+        swap(parent, right);
+        trickleDown(left);
+    }else if (array[parent] < array[right]){
+        swap(parent, left){
+            swap(parent, left);
+            trickleDown(right);ß
+        }
+    }
+}
+*/

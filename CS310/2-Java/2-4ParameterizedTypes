@@ -1,0 +1,40 @@
+// Parameterized Types
+// 5/25/22
+
+/*
+Parametrized types allow us to define a container
+- MyContainer<Monkey> = new MyContainer<Monkey>();
+- MyContainer<Undergraduate> = new MyContainer<Undergraduate>();
+- Only have to write container once, then works with all types 
+
+Separate out several ideas
+- Container
+    - Queue
+    - Stack
+- Implementation
+    - List I
+- Data
+
+public class LinkedList<E>{
+    public void addFirst(E obj){
+
+    }
+
+    public E removeFirst(){
+
+    }
+
+    E[] storage = (E[]) new Object[size];
+}
+
+
+Constructors
+class Node<E>{
+    E data;
+    Node <E> next;
+    public Node(E obj){
+        data = obj;
+        next = null;
+    }
+}
+*/

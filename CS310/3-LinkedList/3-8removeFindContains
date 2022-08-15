@@ -1,0 +1,35 @@
+// remove, find, contains
+// 5/30/22
+
+/*
+Remove a specific element in the list 
+- Find the thing we want to remove
+    - if (((Comparable<E>) current.data).compareTo(obj)==0)
+    - delete Node - point the next pointer to the Node after the Node we want to delete
+
+public E remove(E obj){
+    Node<E> current = head, prev = null;
+    while (current != null){
+        if (((Comparable<E>) current.data).compareTo(obj) == 0){
+            if (current == head){
+                return removeFirst();
+            }
+            if (current == tail){
+                return removeLast();
+            }
+            currentSize--;
+            previous.next = current.next;
+            return current.data;
+        }
+        previous = current;
+        current = current.next;
+    }
+    return null;
+}
+
+Find a specific element - contains()
+
+public boolean contains(E obj){
+    
+}
+*/

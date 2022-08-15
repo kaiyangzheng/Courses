@@ -1,0 +1,11 @@
+// Boundary Conditions
+// 5/28/22
+
+/*
+Boundary Conditions
+1. Empty data structure
+2. Single element in the data structure 
+3. Adding/Removing beginning of the data structure
+4. Adding/Removing from the end of the data structure
+5. Working in the middle
+*/

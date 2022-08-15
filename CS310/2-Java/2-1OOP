@@ -1,0 +1,37 @@
+// Object Oriented Programming - Inheritance and Classes
+// 5/24/22
+
+/*
+int i = 10; - how much memory does i take?
+- short: 2 bytes
+- long: 8 bytes
+
+Student s = new Student(); - how much memory does s take?
+- depends on OS
+- JVM takes 4 bytes for s, which point to a space on the heap that are used to store whatever is in the Student class
+
+class Person
+- id
+- name
+- email
+
+class Student
+- gpa
+- classes
+
+class Undergraduate
+- year
+
+Class Declarations
+- public class Person{}
+- public class Student extends Person{}
+- public class Undergraduate extends Student{}
+
+Casting
+- Undergraduate u = new Undergraduate();
+    - 4 bytes on the heap
+    - takes all variables for Undergraduate, Student, and Person
+- Student s = new Undergraduate();
+    - space allocated for Undergraduate object
+- Cannot say Undergraduate u = new Student(); - space for Student, but more variables/methods needed for Undergraduate
+*/

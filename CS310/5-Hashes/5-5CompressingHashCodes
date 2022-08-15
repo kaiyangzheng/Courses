@@ -1,0 +1,16 @@
+// Compressing Hash Codes
+// 6/6/22
+
+/*
+Compressing hashCode()
+
+public int hashCode(String s){
+
+}
+- optimize int and turn into array
+- reduce collisions - optimize table size   
+    - odd sized table
+    - table size is prime number
+    - -10 % 3 = -1 vs 10 % 3 = 1
+    - convert to positive number
+*/

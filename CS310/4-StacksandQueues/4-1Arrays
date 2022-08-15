@@ -1,0 +1,50 @@
+// Arrays
+// 6/4/22
+
+/*
+Complexity of adding to the end of Array - O(1)
+- we know how many elements are in the array
+
+Complexity of removing the end of Array - O(1)
+
+In a standard array adding removing at the end is constant time
+
+Adding and removing at the beginning of the array
+- Move every element over one or back one
+- Complexity - O(n)
+
+Unordered Array?
+- Move beginning element to the end
+- Add new element at the beginning
+
+Implementation of a stack (LIFO) using an Array
+- addLast
+- removeLast
+- both constant time
+
+Implementation of a queue (FIFO) using an Array
+- addLast
+- removeFirst
+- addLast - O(1), removeFirst - O(n) 
+or...
+- addFirst
+- removeLast
+- addFirst - O(n), removeLast - O(1)
+
+Arrays
+Pros 
+- faster
+- require less memory
+
+Cons
+- fixed size
+- rapid growth is expensive
+
+Linked Lists
+Pros
+- unlimited capacity
+
+Cons
+- slower
+- extra memory
+*/

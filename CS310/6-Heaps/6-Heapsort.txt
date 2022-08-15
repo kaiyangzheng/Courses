@@ -1,0 +1,12 @@
+// Heap Sort
+// 6/14/22
+
+/*
+Heap Sort
+- "remove" last element by moving pointer
+- call trickleDown
+- eventually, will be sorted
+
+Time Complexity: 0(nlogn)
+Space: constant     
+*/

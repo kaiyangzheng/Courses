@@ -1,0 +1,23 @@
+// add() and remove()
+// 6/10/22
+
+/*
+public boolean add(k key, v value){
+    if (loadFactor() > maxLoadFactor){
+        resize(tableSize * 2);
+    }
+
+    HashElement<k,v> he = new HashElement<k,v>(key, value);
+    int hashVal = key.hashCode();
+    hashVal = hashVal & 0x7FFFFFFF;
+    hashVal = hashVal % tableSize;
+    harray[hashVal].add(he);
+    numElements++;
+    return true;
+}
+
+remove method
+- don't worry about resizing or creating an object
+- get hashCode from key, make positive and mod on tableSize
+- call harray[hashValue].remove(he); numElements--; 
+*/

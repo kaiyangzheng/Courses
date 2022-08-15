@@ -1,0 +1,20 @@
+// Introduction to Linked Lists
+// 5/28/22
+
+/*
+Node
+- 2 pieces of information
+    - pointer
+    - data
+
+Linked List
+- Many nodes, eaching containing a pointer and piece of data
+    - each pointer points to a place in memory - the adjacent node
+    - Node A => Node B => Node C => Node D => null
+- Start our list with a pointer - head - points to first Node in the list
+- Only way to access data in LinkedList is through the head 
+    - next = head.next => Node B
+    - data = head.data
+    - head.next.next
+    - head.next.data
+*/

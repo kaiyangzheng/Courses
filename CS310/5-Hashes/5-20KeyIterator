@@ -1,0 +1,34 @@
+// Key Iterator
+// 6/11/22
+
+/*
+Get key, get hashCode, and choose where to place the piece of data
+- iterator returns keys in a non-guarenteed order
+
+class IteratorHelper<T> implements Iterator<T>{
+    T[] keys;
+    int position;
+    public IteratorHelper(){
+        keys = (T[]) Object[numElements]
+        int p = 0;
+        for (int i = 0; i < tableSize; i++){
+            LinkedList<HashElement<k,v>> list = harray[i];
+            for (HashElement<k,v> h : list){
+                keys[p++] = (T) h.key();
+            }
+        }
+        position = 0;
+    }
+
+    public boolean hasNext(){
+        return position < keys.length;
+    }
+
+    public T next(){
+        if (!hasNext()){
+            return null;
+        }
+        return keys[position++];
+    }
+}
+*/

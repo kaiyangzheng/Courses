@@ -1,0 +1,20 @@
+// addFirst()
+// 5/28/22
+
+/*
+Adding to the front of the LinkedList
+head - null
+When LinkedList is empty:
+- head points to new Node A
+
+Create new Node B:
+- next points to A
+- move head point to B
+
+public void addFirst(E obj){
+    Node<E> node = new Node<E>(obj);
+    node.next = head;
+    head = node;
+    currentSize++;
+} 
+*/

@@ -1,0 +1,35 @@
+// removeLast()
+// 5/29/22
+
+/*
+Delete the last Node C
+- Move the tail pointer to Node B - how?
+- Have to go from the front
+- 2 pointers
+    - current => head
+    - previous => null
+    - As go thorugh list, set previous to current, set current to current.next  
+    - if current == tail or if current.next == null => end of the list
+
+public E removeLast(){
+    if (head == null){
+        return null;
+    }
+
+    if (head == tail){
+        return removeFirst();
+    }
+
+    Node<E> current = head, previous = null;
+
+    while (current != tail){
+        previous = current;
+        current = current.next;
+    }
+    previous.next = null;
+    tail = previous;
+    currentSize--;
+    return current.data;
+}
+
+*/

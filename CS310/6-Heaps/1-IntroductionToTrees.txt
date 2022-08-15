@@ -1,0 +1,17 @@
+// Introduction to Trees
+// 6/12/22
+
+/*
+Trees
+- Root - top level of the Tree
+- Leaves - elements with no children
+- Access through the root - always know where the root is
+- child -> parent -> grandparent
+- sibling, aunt
+- Each item in the tree is a Node
+- Edge - joins two Nodes together
+
+Levels
+- 0, 1, 2, 3...
+- NOdes on the same level
+*/

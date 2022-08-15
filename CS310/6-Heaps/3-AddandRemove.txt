@@ -1,0 +1,24 @@
+// Add and Remove
+// 6/12/22
+
+/*
+Adding to a heap
+- add to next available space
+- heap violation if child is bigger than parent
+    - Solution: swap parent and child
+    - swap continuously until no heap violation
+- Add: 
+    - insert next available space
+    - trickle up
+
+Remove from a heap
+- always remove the root
+- remove last element in the tree and insert into root Node
+- heap violation is created
+    - swap root with children until it finds a resting place where its smaller than parent and bigger than children
+- Remove:
+    - remove the root
+    - replace w/ last element 
+    - trickle down
+        - swap with larger of two children
+*/

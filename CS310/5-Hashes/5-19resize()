@@ -1,0 +1,23 @@
+// Hash resize
+// 6/10/22
+
+/*
+- Avoid having so much data that our complexity goes from constant time to O(n)
+    - Make bigger array when it starts getting full
+    - However, must rehash
+
+public void resize(int newSize){
+    LinkedList<HashElement<k,v>>[] newArray = (LinkedList<HashElement<k,v>>[]) new LinkedList<HashElement<k,v>[newSize];
+    for (int i = 0; i < newSize; i++){
+        newArray[i] = new LinkedList<HashElement<k,v>>();
+    }
+    for (k key : this){
+        v val = getValue(key);
+        HashElement<k,v> he = new HashElement<k,v>(key,val);
+        int hashVal = (key.hashCode() & 0x7FFFFFFF) % newSize;
+        newArray[hashVal].add(he);
+    }
+    harray = newArray;
+    tableSize = newSize;
+}
+*/

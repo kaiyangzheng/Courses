@@ -1,0 +1,35 @@
+// Comparisons with generics
+// 5/24/22
+
+/*
+ * String one = "hello world";
+ * String two = "hello world";
+ * if (one.equals(two)){
+ * System.out.println("they are the same");
+ * }
+ * - String .equals overrides Object.equals
+ * 
+ * Object o = one;
+ * object t = two;
+ * if (o.equals(t))
+ * - .equals compares memory address - so not the same
+ * 
+ * Monkey m = new Monkey();
+ * Monkey n = new Monkey();
+ * if (m.equals(n)){}
+ * - no way of knowing if .equals is in Monkey or Object
+ * - mechanims to override equals method, also can extend comparison
+ * - => Comparable<T> interface
+ * 
+ * Comparable<T> interface
+ * = public int compareTo(T obj)
+ * - a.compareTo(b)
+ * - if (a < b) return < 0
+ * - if (a == b) return 0
+ * - if (a > b) return > 0
+ * 
+ * if (((Comparable<T>) data).compareTo(obj)) == 0){
+ *  // they are the same
+ * } 
+ * - cast data to Comparable => call compareTo method - is the compareTo method in Comparable object 
+ */

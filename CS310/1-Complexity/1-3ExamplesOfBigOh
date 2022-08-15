@@ -1,0 +1,25 @@
+// Examples of Big-Oh Notation
+// 5/23/22
+
+/*
+ * n^(4/3) = O(nlogn)? True or False
+ * - 1000^(4/3) | 1000 log 1000
+ * - 10,000 | 1000 * 3
+ * - Therefore, False, O(nlogn) is faster than O(n^(4/3))
+ * 
+ * 3n^3 + 4n^2 + 5n + 6 ?= theta(n^3)
+ * - 3n^3 + 4n^2 + 5n + 6 => 3n^3 => n^3
+ * - Therefore, True, n^3 is a member of the set theta(n^3)
+ * 
+ * [n(n-1)]/2 ?= O(n^2)
+ * - n^2/2-n/2 => n^2
+ * - Therefore, Ture, n^2 is a member of the set O(n^2)
+ * 
+ * 2^n ?= omega(n)
+ * - 2^1000 | 1000
+ * - 2^n - slower than omega(n)
+ * - Therefore, 2^n is a member of the set omega(n)
+ * 
+ * n^2 ?= O(n^3)
+ * - yes, n^2 is faster than n^3
+ */

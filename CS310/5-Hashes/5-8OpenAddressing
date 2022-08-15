@@ -1,0 +1,38 @@
+// Open Addressing
+// 6/6/22
+
+/*
+Resolve Collisions in a hash
+
+int h = x.hashCode();
+h = h & 0xfffffff;
+h = h % tableSize;
+
+place x in appropriate cell according to hashcode
+
+int h = y.hashCode();
+h = h % 0xfffffff;
+h = h % tableSize;
+
+What happens if the hashcode of y is at the same location of x?
+- linear probing - place y at the next space 
+    - check next space next time when accessing element
+    - get clumps of unrelated data
+    - inefficent - adding things sequentially through the array
+- quadratic probing
+    - if space is filled, instead of adding 1, add the quadratic
+    - hashvalue + 1^2
+    - hashvalue + 2^2
+    - hashvalue + 3^2
+    - hashvalue + 4^2
+- double hashing
+    - 2 different hashcode functions
+    - 2nd function must be different from the first
+    - must not return 0
+
+d.hashCode()
+e.hashCode()
+if cell is full?
+e.hashTwo() + e.hashCode()
+
+*/

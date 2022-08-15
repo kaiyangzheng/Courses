@@ -1,0 +1,23 @@
+// Complexity
+// 5/23/22
+
+/*
+ * Rules in comparing algorithms:
+ * - input >= 0
+ * - functions do more work for more input
+ * - drop all constants
+ * - 3n = 5n = 10n = 50n => n
+ * - n => infinity
+ * - ignore lower order terms
+ * - n^3 + n^2 + n + 5 => n^3
+ * - ignore the base of logs
+ * - Math.log(2) => ln 2
+ * - log 2 = ln 2/ln 10
+ * - 2n = O(n) => 2n E (is a member of a set of) O(n)
+ * 
+ * 1,c - constant time
+ * log n - trees
+ * n - once per item
+ * n^2 - comparing all v all
+ * n! - traveling sales
+ */

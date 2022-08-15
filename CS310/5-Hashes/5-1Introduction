@@ -1,0 +1,51 @@
+// Introduction to hashes
+// 6/4/22
+
+/*
+Problem with Linked List
+- Finding an element - O(n)
+- How to find O(1)?
+
+Hashes
+- add
+- remove
+- lookup/find/contains
+- change
+- O(?)
+
+All entries
+- all keys
+- all values
+- Theta(n) - at least n amount of work
+
+size
+- isEmpty
+- isFull
+- loadFactor()
+- O(1)
+
+cssc010 => 92% - 10
+cssc011 => 100% - 11
+cssc012 => 65% - 12
+cssc013 => 93% - 13
+
+Want to create a data structure that can take an id => number => data
+- originally started as Associated arrays
+
+make two arrays
+- Array number 1 - student id - key
+- Array number 2 - grade - value
+
+hashCode(String id)
+    remove cssc
+    convert to int
+    int - 10
+- hash function
+- many ways to write hash functions
+
+Now, to find grade associated with value
+- go to position associated with number - O(1)
+- get the value out
+- find and remove is constant time 
+- remove - change value from id to -1 or null
+*/

@@ -1,0 +1,30 @@
+// Node Class
+// 6/18/22
+
+/*
+Trees
+- smaller things are on the left
+
+LinkedList
+- pointer: next, object: data
+- can be expanded to include
+    - left
+    - data
+    - right
+- Tree - same concept as LinkedList 
+    - use of inner class Node
+
+class Node<E>{
+    E data;
+    Node<E> right;
+    Node<E> left;
+
+    public Node(E obj){
+        this.data = obj;
+        left = null;
+        right = null;
+    }
+}
+- sometimes, Node can have parent Node 
+    - this way, child can have a pointer to its parent
+*/

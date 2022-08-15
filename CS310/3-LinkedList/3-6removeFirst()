@@ -1,0 +1,29 @@
+// removeFirst()
+// 5/29/22
+
+/*
+Head pointer => first Node
+Remove the first Node from the Linked List and return the entity stored in data
+- Move to head to Node A.next
+- head = head.next
+
+What if list is empty?
+- NullPointerException
+
+public E removeFirst(){
+    if (head == null){
+        return null;
+    }
+
+    E tmp = head.data;
+    
+    if (head == tail){
+        head = tail = null;
+    }else{
+        head = head.next;
+    }
+    
+    currentSize++;
+    return tmp;
+}
+*/

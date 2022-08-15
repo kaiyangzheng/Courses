@@ -1,0 +1,15 @@
+// Big-Oh Notation
+// 5/23/22
+
+/*
+ * Algorithms that are less steep are faster; algorithms that are more steep
+ * are slower
+ * We want fast, not slow
+ * 
+ * Described using Big-Oh Notation
+ * - O: same or faster
+ * - theta: same rate
+ * - omega: same or slower
+ * - o: faster
+ * - little omega: slower
+ */

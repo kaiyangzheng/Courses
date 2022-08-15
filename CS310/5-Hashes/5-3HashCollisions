@@ -1,0 +1,12 @@
+// Hash collisions
+// 6/5/22
+
+/*
+Collisions
+- Array of key phone numbers
+- Array of people associated with phone numbers
+
+- Phone number may be too long to be used as a key => hash function that takes phone number and adds up the three parts
+    - called folding
+- What if the addition of the three parts are the same? - collision
+*/

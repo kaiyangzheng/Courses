@@ -1,0 +1,44 @@
+// Iterators
+// 6/1/22
+
+/*
+Iterator and Iterable
+
+int arr[] = {1, 2, 3, 4, 5};
+for (int i = 0; i < arr.length; i++){
+    System.out.println(arr[i]);
+}
+
+for (int x : arr){
+    System.out.println(x);
+}
+- for this to work, you must implement the Iterable<E> interface
+- only has one method to complete 
+public Iterator<E> iterator(){
+    return new IteratorHelper();
+}
+
+public class LinkedList<E> implements ListI<E>{
+    class IteratorHelper implements Iterator<E>{
+        Node<E> index;
+        
+        public IteratorHelper(){
+            index = head;
+        }
+
+        public boolean hasNext(){
+            return index != null;
+        }
+
+        public E next(){
+            if (!hasNext()){
+                throw new NoSuchElementException();
+            }
+
+            E val = index.data;
+            index = index.next;
+            return val;
+        }
+    }
+}
+*/
